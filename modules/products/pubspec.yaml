@@ -1,0 +1,30 @@
+name: products
+description: "Products Module"
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dependencies:
+    path: ../dependencies
+  core:
+    path: ../core
+  art_core:
+    path: ../art_core
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+

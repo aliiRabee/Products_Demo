@@ -1,0 +1,57 @@
+name: art_core
+description: Art Core Module
+
+version: 1.0.0+1
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dependencies:
+    path: ../dependencies
+  core:
+    path: ../core
+
+dependency_overrides:
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

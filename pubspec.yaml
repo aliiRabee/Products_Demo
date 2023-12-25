@@ -1,0 +1,39 @@
+name: mnjz_products
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dependencies:
+    path: ./modules/dependencies
+  core:
+    path: ./modules/core
+  art_core:
+    path: ./modules/art_core
+  products:
+    path: ./modules/products
+  splash:
+    path: ./modules/splash
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+

@@ -1,0 +1,30 @@
+name: splash
+description: Splash Module
+version: 0.0.1
+publish_to: "none"
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  core:
+    path: ../core
+  dependencies:
+    path: ../dependencies
+  art_core:
+    path: ../art_core
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  intl: ^0.18.0
+
+flutter:
+
